@@ -1,10 +1,19 @@
 {
-  "name": "tasklist",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "name": "TaskList",
+  "description": "Tasklist API with Azure Table Storage",
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "name": "Nurul Arif Setiawan",
+      "email": "n.arif.setiawan@gmail.com",
+      "github": "https://github.com/arifsetiawan"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifsetiawan/tasklist.git"
   },
+  "homepage": "https://github.com/arifsetiawan/tasklist",
   "dependencies": {
     "express": "~4.9.0",
     "body-parser": "~1.8.1",
@@ -18,5 +27,8 @@
     "azure-storage": "~0.3.3",
     "swig": "~1.4.2",
     "lodash": "~2.4.1"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
