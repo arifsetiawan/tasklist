@@ -9,7 +9,7 @@
 
       <h4>Create task</h4>
       <p>
-      <code>POST http://azurecamp.cloudapp.net/api/task</code>
+      <code>POST http://azurecamp.cloudapp.net:3000/api/task</code>
       <br>
       <br>
       Body. With Content-Type: application/json
@@ -31,7 +31,7 @@
 
       <h4>Get task</h4>
       <p>
-      <code>GET http://azurecamp.cloudapp.net/api/task</code>
+      <code>GET http://azurecamp.cloudapp.net:3000/api/task</code>
       <br>
       <br>
       Query parameters :
@@ -40,7 +40,7 @@
       </p>
 
       <h4>Complete task</h4>
-      <code>POST http://azurecamp.cloudapp.net/api/task/complete</code>
+      <code>POST http://azurecamp.cloudapp.net:3000/api/task/complete</code>
       <br>
       <br>
       Body. With Content-Type: application/json
@@ -54,7 +54,7 @@
       </code>
 
       <h4>Delete task</h4>
-      <code>DELETE http://azurecamp.cloudapp.net/api/task?RowKeys=ROWKEY1;ROWKEY2;ROWKEY3</code>
+      <code>DELETE http://azurecamp.cloudapp.net:3000/api/task?RowKeys=ROWKEY1;ROWKEY2;ROWKEY3</code>
       <br>
       <p>Use ; to separate multiple keys</p>
     </div>
