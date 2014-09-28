@@ -91,11 +91,9 @@ app.use(function(err, req, res, next) {
   }
 });
 
-
-//module.exports = app;
-
-//var debug = require('debug')('tasklist');
-//var app = require('../app');
+process.on('uncaughtException',function(err){
+  console.error('uncaughtException', err.stack);
+});
 
 var server = app.listen(process.env.PORT || 3000, function() {
   console.log('Express server listening on port ' + server.address().port);

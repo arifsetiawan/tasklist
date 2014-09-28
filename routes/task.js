@@ -14,7 +14,7 @@ if(!process.env.STORAGE_NAME) {
 else {
   var Task = require('../models/task');
   var task = new Task(azure.createTableService(process.env.STORAGE_NAME, process.env.STORAGE_KEY), 
-  process.env.TABLE_NAME, process.env.PARTITION_KEY);
+    process.env.TABLE_NAME, process.env.PARTITION_KEY);
 }
 
 router.use(function(req, res, next) {
