@@ -11,7 +11,7 @@
     <!--STYLES END-->
   </head>
   <body>
-    <a href="/">Tasklist</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/api">API</a>
+    <a href="/">Tasklist</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/api">API</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/resources">Resources</a>
 
     {% block body %}{% endblock %}
 
